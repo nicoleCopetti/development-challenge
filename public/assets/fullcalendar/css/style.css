@@ -1,0 +1,80 @@
+body {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar-custom {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+  box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+  border-bottom: 1px solid #d2d6de;
+  min-height: 50px;
+  background:#fff;
+  color: #333; 
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+}
+
+.modalInsert {
+  border:1px solid #00a65a;
+}
+
+.modalInsert .modal-header{
+  color: #fff;
+  background: #00a65a;
+  background-color: #00a65a;
+}
+
+.modalUpdate {
+  border:1px solid #f39c12;
+}
+.modalUpdate .modal-header{
+  color: #fff;
+    background: #f39c12;
+    background-color: #f39c12;
+}
+
+#external-events {
+  position: fixed;
+  z-index: 2;
+  top: 100px;
+  left: 20px;
+  width: 200px;
+  padding: 0 10px;
+  border: 1px;
+  background: #f4f4f5;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  border: none;
+  font-size: 16px;
+  color:#444;
+  font-weight: 400;
+}
+
+#calendar-container {
+  position: relative;
+  z-index: 1;
+  margin-left: 200px;
+}
+
+#calendar {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+ul.separator {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+ul.separator li {
+  padding: .5em 0;
+  border-bottom: 1px solid #CCC;
+  text-align: right;
+  padding-right: 15px;
+}
