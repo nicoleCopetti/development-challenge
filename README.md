@@ -12,8 +12,8 @@ Importante que exista um controle de Status, dividido entre cancelado, agendado 
 ## Requisitos para validação
 - XAMPP (https://www.apachefriends.org/pt_br/download_success.html)
 - No painel de Controle do XAMPP, inicie os serviços Apache e PHPMyAdmin
-- Acesse a opção Admin do serviço PHPMyAdmin -> Novo -> Importar -> Arquivos da aplicação (https://github.com/nicoleCopetti/auditoria-teste/blob/master/laravel.sql)
-- Inclua os arquivos do sistema no local de instalação do xampp-> htdocs (https://github.com/nicoleCopetti/auditoria-teste.git)
+- Acesse a opção Admin do serviço PHPMyAdmin -> Novo -> Importar -> Arquivos da aplicação (https://github.com/nicoleCopetti/development-challenge/blob/master/base-dados.sql)
+- Inclua os arquivos do sistema no local de instalação do xampp-> htdocs (https://github.com/nicoleCopetti/development-challenge.git)
 - No navegador acesse (http://localhost/auditorias/public/)
 
 ## Utilização do Sistema
